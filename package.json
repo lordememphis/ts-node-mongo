@@ -1,0 +1,33 @@
+{
+  "name": "ts-node-mongo",
+  "version": "1.0.0",
+  "description": "Connecting typescript node express to mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "dev": "nodemon ./src/app.ts",
+    "--prod": "tsc -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordememphis/ts-node-mongo.git"
+  },
+  "author": "lordememphis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordememphis/ts-node-mongo/issues"
+  },
+  "homepage": "https://github.com/lordememphis/ts-node-mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.25",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
